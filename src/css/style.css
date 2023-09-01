@@ -1,0 +1,246 @@
+
+
+
+H1{
+    color: #ffd900;
+    font-family: 'Courier New', Courier, monospace;
+}
+H2{
+    color: #ffb700;
+    font-family: 'Courier New', Courier, monospace;
+}
+H3{
+    color: rgb(255, 255, 255);
+}
+h4{
+    color: #ffffff;
+font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+
+
+body{
+    background-image: url(https://www.molinoschampion.com/wp-content/uploads/2021/04/brown-swiss-wordpress.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+  }
+  .contactos{
+    background-image: url(https://enciclopediaeconomica.com/wp-content/uploads/2021/05/ganaderia.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+  }
+
+
+
+
+
+
+
+
+.dropdown{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+          
+          .rotating-text-wrapper {
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+          }
+          .rotating-text-wrapper h2 {
+            font-size: 2.5em;
+            margin: 0;
+            padding: 0.3em;
+            color: #fff;
+            box-shadow: 0 10px 10px rgb(3, 3, 3);
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            opacity: 0;
+          }
+          .rotating-text-wrapper h2:nth-child(1) {
+            background-color: lightseagreen;
+            animation-name: rotating-text-1;
+          }
+          @keyframes rotating-text-1 {
+            0% {
+              transform: translateY(200%);
+            }
+            33% {
+              transform: translateY(100%);
+              opacity: 1;
+            }
+            34% {
+              opacity: 0;
+            }
+          }
+          .rotating-text-wrapper h2:nth-child(2) {
+            background-color: tomato;
+            animation-name: rotating-text-2;
+          }
+          @keyframes rotating-text-2 {
+            33% {
+              transform: translateY(100%);
+              opacity: 0;
+            }
+            66% {
+              transform: translateY(0);
+              opacity: 1;
+            }
+            67% {
+              opacity: 0;
+            }
+          }
+          .rotating-text-wrapper h2:nth-child(3) {
+            background-color: cornflowerblue;
+            animation-name: rotating-text-3;
+          }
+          @keyframes rotating-text-3 {
+            66% {
+              transform: translateY(0);
+              opacity: 0;
+            }
+            99% {
+              transform: translateY(-100%);
+              opacity: 1;
+            }
+            100% {
+              transform: translateY(-100%);
+              opacity: 0;
+            }
+          }
+          @media screen and (max-width: 576px) {
+            .rotating-text-wrapper {
+              font-size: 0.7rem;
+            }
+          }
+
+
+
+          #main-header a{
+            color:rgb(241, 56, 0);
+          }
+          #main-header:hover {
+            background: #000007;
+          }
+          #logo-header {
+              float: left;
+              padding: 15px 0 0 20px;
+              text-decoration: none;
+          }
+          
+          #logo-header .site-name {
+            display: block;
+            font-weight: 700;
+            font-size: 1.2em;
+            font-family: 'Black Ops One', cursive;
+          }
+          
+          #logo-header .site-desc {
+            display: block;
+            font-weight: 300;
+            font-size: 0.8em;
+            color: #e00000;
+          }
+          nav {
+              float: right;
+          }
+              nav ul {
+                  margin: 0;
+                  padding: 0;
+                  list-style: none;
+                  padding-right: 20px;
+              }
+              
+                  nav ul li {
+                      display: inline-block;
+                      line-height: 60px;
+                  }
+                      
+                      nav ul li a {
+                          padding: 10px 10px;
+                          text-decoration: none;
+                      }
+                      
+                          nav ul li a:hover {
+                              border-bottom: 4px solid #ffffff;
+                          }
+                          .contenedor-boton{
+                            display:inline-block;
+                            position:static;
+                          }
+
+
+
+
+                          #main-header{
+                            background: #00000775;
+                            color:#000000;
+                            height: 80px;
+                            width: 100%; 
+                              left: 0; 
+                              top: 0; 
+                              position: fixed; 
+                          }
+                          #main-header a{
+                            color:rgb(245, 244, 244);
+                          }
+                          #main-header:hover {
+                            background: #000000;
+                          }
+                          #logo-header {
+                              float: left;
+                              padding: 15px 0 0 20px;
+                              text-decoration: none;
+                          }
+                          
+                          #logo-header .site-name {
+                            display: block;
+                            font-weight: 700;
+                            font-size: 1.2em;
+                            font-family: 'Black Ops One', cursive;
+                          }
+                          
+                          #logo-header .site-desc {
+                            display: block;
+                            font-weight: 300;
+                            font-size: 0.8em;
+                            color: #ffffff;
+                          }
+                          nav {
+                              float: right;
+                          }
+                              nav ul {
+                                  margin: 0;
+                                  padding: 0;
+                                  list-style: none;
+                                  padding-right: 20px;
+                              }
+                              
+                                  nav ul li {
+                                      display: inline-block;
+                                      line-height: 80px;
+                                  }
+                                      
+                                      nav ul li a {
+                                          padding: 10px 10px;
+                                          text-decoration: none;
+                                      }
+                                      
+                                          nav ul li a:hover {
+                                              border-bottom: 4px solid #8f0e00;
+                                          }
+                          
